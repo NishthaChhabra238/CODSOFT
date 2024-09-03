@@ -1,0 +1,248 @@
+#main{
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#content{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#navbar{
+    background-color:white;
+}
+#T1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+}
+#stories{
+    font-family: "Libre Baskerville",serif;
+    font-size: 50px;
+}
+#imgage{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    border: 12px solid rgb(144, 153, 162);
+    background-image: cover;
+
+}
+#inline{
+    display: inline-block;
+}
+
+.sub{
+    color: #E77500;
+    font-size: 48PX;
+    margin-bottom: 3rem;
+    text-align: center;
+   
+    display: inline-block;
+    margin: 0px 0px 48px;
+    padding: 30px;
+    margin: 20px;
+}
+.link{
+    margin-right: 200px;
+    text-decoration: none;
+    color: black;
+}
+span{
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: 0px 0px 48px 10px;
+    padding: 0px 15px 16px 10px;
+    
+}
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+#header {
+    margin: 30px 19px;
+}
+
+.logo {
+    height: 70px;
+    margin: -10px 1px;
+    display: block;
+}
+
+.logo img {
+    border-radius: 5px;
+    height: 120px;
+    margin: 3px 6px;
+}
+
+#header1 {
+    margin: -61px 30px 30px -110px;
+    padding: -0.5px 20px 20px 1100px;
+    height: 100px;
+}
+
+.apply {
+    height: 50px;
+    margin: -24px 12px 20px 1100px;
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+    align-content: center;
+    width: 135px;
+    height: 38px;
+    background-color: lightgrey;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: -100px 30px 20px -100px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: white;
+    background-color: green;
+}
+
+.btn2 {
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    width: 220px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin: -100px 30px 20px 8px;
+}
+
+.btn2:hover {
+    background-color: green;
+}
+
+.darkbtn {
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    width: 110px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.darkbtn:hover {
+    background-color: green;
+    color: white;
+}
+
+body {
+    padding: -25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 22px 56px 6px 78px;
+    margin: -30px 15px 6px 15px;
+    text-align: center;
+    background-color: rgb(2, 113, 2);
+}
+
+#navBar ul {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navBar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navBar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navBar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#navBar ul li a:hover {
+    color: blue;
+    background-color: white;
+}
+#picse{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+   margin:60px 60px 60px 60px;
+
+ background-size: cover;
+ 
+}
+#profile{
+font-family: "Libre Baskerville",serif;
+color: black;
+}
+#colorbox{
+    background-color: rgba(54, 233, 54, 0.3);
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+#colorboxx{
+    background-color: rgba(119, 165, 169, 0.3);
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.profiles{
+    border: 3px solid black;
+    border: 12px solid rgb(177, 198, 203);
+}
+#new{
+    background: #151515;
+color: white;
+padding: 50px 50px 0 px;
+font-size: 22px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+height: max-content;
+}

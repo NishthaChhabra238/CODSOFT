@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100px;
+    height: auto;
+}
+
+#resume {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+#about img {
+    width: 150px; /* Adjust the width to your liking */
+    height: 150px; /* Keep the height equal to width for a square shape */
+    border-radius: 50%; /* Rounded corners */
+    float: left; /* Position the image to the left */
+    margin: 20px; /* Add some margin around the image */
+}
+
